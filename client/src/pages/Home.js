@@ -3,9 +3,9 @@ import { useQuery } from '@apollo/client';
 import ThoughtList from '../components/ThoughList';
 
 
-import { QUERY_THOUGHT } from '../utils/queries';
+import { QUERY_THOUGHTS } from '../utils/queries';
 const Home = () => {
-  const { loading, data } = useQuery(QUERY_THOUGHT);
+  const { loading, data } = useQuery(QUERY_THOUGHTS);
   const thoughts = data?.thoughts || []
   console.log(thoughts);
 

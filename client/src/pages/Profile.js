@@ -1,6 +1,6 @@
 import React from 'react';
 import { useParams } from 'react-router-dom';
-import ThoughtList from '../components/ThoughList';
+import ThoughtList from '../components/ThoughtList';
 import { useQuery } from '@apollo/client';
 import { QUERY_USER } from '../utils/queries'
 import FriendList from '../components/FriendList';
